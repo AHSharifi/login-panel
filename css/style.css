@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: mono;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: mono;
+}
+
+@font-face {
+    font-family: mono;
+    src: url("../asset/font/MonaSans-Regular.woff2");
+}
+
+#register {
+    height: 101%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    position: fixed;    
+    transform: scale(102%);
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.left-box {
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+    border-radius: 10px 0 0 10px;
+    background-color: #00000077;
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.right-box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.right-box button {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+form h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: mono;
+}
+
+form input {
+    width: 70%;
+    height: 50px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+}
